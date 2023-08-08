@@ -85,4 +85,111 @@
   
 </body></html>
 
+:root{
+    --navBarTextColour: white;
+    --navBarBackgroundColour: rgb(38, 38, 132);
+    --baseDisplay: flex;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /*!Remove this*/
+  img {
+    width: 40%;
+ 
+  }
+  
+  body {
+    margin: 0%;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+
+
+  }
+  
+  h1 {
+    font-size: var(--headerfontsize);
+    margin-bottom: var(--smallBottomMargin);
+  }
+
+  h2 {
+    font-size: var(--headerfontsize) - var(--smallHeaderOffset);
+    margin-bottom: var(--smallBottomMargin);
+  }
+
+  header {
+    padding: 40px;
+    text-align: center;
+    background: white(0, 0, 0);
+    color: var(--headingColour); 
+  }
+ 
+nav {
+    display: var(--baseDisplay);
+    background-color: beige;
+}
+
+nav {
+    color: black;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+  
+  p {
+    margin: 0;
+  }
+
+  .flexGrid{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+  }
+
+  .flexGrid a{ 
+    font-size: flex;
+    text-decoration: rgb(0, 0, 0);
+    text-align: center;
+  }
+
+  .flexGrid iframe{
+    border-radius: 50%;
+    rotate: deg(20);
+    border-color: rgb(94, 66, 25);
+  }
+  .pageSection{
+    display: flex;
+  }
+  /*Media query for mobile device.*/ 
+  @media only screen and (max-width: 600px)
+  {
+
+ .flexGrid{
+     display: block;
+     margin: auto;
+     cursor: zoom-in;
+     background-color: hsl(0, 0%, 90%);
+     transition: background-color 300ms;
+    }
+   }
+
+ .flexGrid {
+     display: block;
+     margin: auto;
+     cursor: zoom-in;
+     background-color: hsl(0, 0%, 90%);
+     transition: background-color 300ms;
+    }
 
